@@ -1,0 +1,169 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    box-sizing: border-box;
+    padding-top: 150px;
+
+    background-color: rgb(59, 133, 245);
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.col {
+    width: 33%;
+    background-color: #EBECF0;
+    height: fit-content;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.col__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.settings {
+    font-size: 20px;
+}
+
+.col__title {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.688);
+    font-weight: bold;
+}
+
+.card_box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.btn_open-form {
+    bottom: 10px;
+    color: gray;
+}
+
+.add-card {
+    display: none;
+    bottom: 10px;
+    margin-top: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.add-card_btns {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.error {
+    display: none;
+    padding: 5px;
+    background-color: rgba(240, 33, 75, 0.708);
+    color: black;
+}
+
+.enter-text {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 5rem;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn_add {
+    padding: 5px;
+    background-color: green;
+    color: azure;
+    border-radius: 5px;
+}
+
+.card_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 70px;
+}
+
+.card-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 3rem;
+    padding: 5px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #FFFFFF;  
+}
+
+.card-wrapper:hover {
+    cursor: grab;
+}
+
+.card-content {
+    padding: 5px;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+.card-remover {
+    display: none;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.err-active {
+    display: block;
+}
+
+.remove-active {
+    display: block;
+}
+
+.dragged {
+    position: absolute;
+    z-index: 1000;
+    cursor: grabbing;
+    pointer-events: none;
+}
+
+.clone {
+    background-color: rgba(0, 0, 0, 0.221);
+    border-radius: 5px;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
