@@ -5,11 +5,25 @@
      "browser": true,
      "jest": true
   },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
       "WithStatement"
-    ]
+    ], 
+    "no-mixed-operators": "off", 
+    "max-len": "off", 
+    "import/no-extraneous-dependencies": "off", 
+    "no-unused-expressions": "off", 
+    "class-methods-use-this": "off", 
+    "no-param-reassign": "off", 
+    "no-unused-vars": "off", 
+    "import/no-named-as-default": "off", 
+    "import/no-named-as-default-member": "off"
+    
   }
 }
